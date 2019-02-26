@@ -1,0 +1,6 @@
+Class Diagram:
+=======================
+
+https://yuml.me/diagram/scruffy/class/draw
+%2F%2F Class Diagram, 
+[CreateAccount|accountId:string; balance:long]<-[Account|accountId:string; balance:long], [DeleteAccount|accountId:string]<-[Account], [Account]->[AccountCreated|accountId:string;balance:long], [Account]->[AccountDeleted|accountId:string] 
